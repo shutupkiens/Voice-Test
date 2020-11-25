@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\user\\StudioProjects\\VokaturiAndroid2020-\\vokaturi\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\user\\StudioProjects\\VokaturiAndroid2020-\\vokaturi\\.cxx\\cmake\\release\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\user\\StudioProjects\\VokaturiAndroid2020-\\vokaturi\\.cxx\\cmake\\release\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "vokaturi-lib-Release-armeabi-v7a": {
+      "artifactName": "vokaturi-lib",
+      "buildCommand": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\user\\StudioProjects\\VokaturiAndroid2020-\\vokaturi\\.cxx\\cmake\\release\\armeabi-v7a\" vokaturi-lib",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\user\\StudioProjects\\VokaturiAndroid2020-\\vokaturi\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libvokaturi-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}

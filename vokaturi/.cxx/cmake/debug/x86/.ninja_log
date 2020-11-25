@@ -1,0 +1,4 @@
+# ninja log v5
+2	632	626155010	CMakeFiles/vokaturi-lib.dir/src/main/cpp/Vokaturi9.c.o	50ae84ae3bcdf211
+21	668	626155010	CMakeFiles/vokaturi-lib.dir/src/main/cpp/vokaturi-lib.cpp.o	9043816421ef4ad6
+669	1454	626155011	../../../../build/intermediates/cmake/debug/obj/x86/libvokaturi-lib.so	146144592518d20d

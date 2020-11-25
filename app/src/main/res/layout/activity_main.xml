@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.depressiontest.MainActivity">
+
+    <TextView
+        android:id="@+id/AmID"
+        android:layout_width="180dp"
+        android:layout_height="58dp"
+        android:layout_alignTop="@+id/btnVoice"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="-310dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginRight="115dp"
+        android:layout_marginBottom="768dp"
+        android:gravity="center_horizontal"
+        android:text="Am I Depressed"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/MulaiTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="16dp"
+        android:background="#0D47A1"
+        android:text="Depression Test"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MulaiTest"
+        android:text="Recommendations"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:background="#0D47A1"
+        android:textColor="#FFFFFF"
+        android:id="@+id/InfoTes"/>
+
+    <Button
+        android:id="@+id/btnEmo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/MulaiTest"
+        android:layout_alignTop="@+id/MulaiTest"
+        android:layout_marginTop="131dp"
+        android:layout_marginBottom="-179dp"
+        android:background="#0D47A1"
+        android:text="Tone Analyzer"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnVoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/MulaiTest"
+        android:layout_alignTop="@+id/MulaiTest"
+        android:layout_marginTop="-66dp"
+        android:layout_marginBottom="18dp"
+        android:background="#0D47A1"
+        android:text="Voice Recognition"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="204dp"
+        android:layout_below="@+id/InfoTes"
+        android:layout_alignStart="@+id/AmID"
+        android:layout_alignLeft="@+id/AmID"
+        android:layout_alignEnd="@+id/AmID"
+        android:layout_alignRight="@+id/AmID"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-114dp"
+        android:layout_marginLeft="-114dp"
+        android:layout_marginTop="-441dp"
+        android:layout_marginEnd="-117dp"
+        android:layout_marginRight="-117dp"
+        android:layout_marginBottom="573dp"
+        app:srcCompat="@drawable/commpeep" />
+
+
+</RelativeLayout>
